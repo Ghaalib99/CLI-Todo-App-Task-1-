@@ -12,31 +12,35 @@ run "npm install to install dependencies"
 - The Todo app will come in Handy for developers who wants to keep track of activities while coding on the command Line Interface
 
 - The App has an Add, List, View, DeleteAll and remove feauture to aid and speed up efficiency
+
  
 # Commands for Todo App
 
-1. add / a [to add a new ToDo]
+1. Start App
+"node index.js"
+
+2. add / a [to add a new ToDo]
 e.g
 "node index.js a --title "Eat Breakfast""
 
-2. list / l [to list all ToDo entries]
+3. list / l [to list all ToDo entries]
 e.g
 "node index.js l"
 
-3. view / v [to view a single ToDo Entry]
+4. view / v [to view a single ToDo Entry]
 e.g
 "node index.js v --index i //(i is index number)"
  
-4. remove / r [to delete individual entry]
+5. remove / r [to delete individual entry]
 e.g
 "node index.js r --index i //(i is index number)"
  
  
- 5. deleteAll / d [to delete all ToDo Entries]
+ 6. deleteAll / d [to delete all ToDo Entries]
  e.g
  "node index.js d"
  
- 6. toggle / t [To indicate task Completion]
+ 7. toggle / t [To indicate task Completion]
  e.g
  "node index.js t --index i //(i is index number)"
 
